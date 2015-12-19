@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 PHP_BIN="php"
 WEB_DIR="/web/htdocs"
 WEB_HOST="localhost"
