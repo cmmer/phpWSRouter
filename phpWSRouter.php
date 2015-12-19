@@ -28,7 +28,7 @@ if (preg_match('/\.(3gp|apk|avi|bmp|css|csv|doc|docx|flac|gif|gz|gzip|htm|html'
 
 // php file
 //$file = str_replace("index.php/", '', $file); // url like: http://yousite.com/index.php/my.req.params
-if (is_file($file) && preg_match('/\.php)/', $file)) {
+if (is_file($file) && preg_match('/\.php/', $file)) {
     include $file;
 } else {
     // file not exists then run "index.php"
